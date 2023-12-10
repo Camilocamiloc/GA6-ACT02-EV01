@@ -1,0 +1,27 @@
+<html>
+<head>
+    <script src="functions.js"></script>
+    <script src="index.js"></script> 
+</head>
+<body>
+    <form id="formCompra">
+        <label for="valorCompra">Valor de la compra</label>
+        <br>
+        <input type="number" name="valorCompra" id="valorCompra" />
+        <br>
+        <label for="fechaNacimiento">Fecha de nacimiento</label>
+        <br>
+        <input type="date" name="fechaNacimiento" id="fechaNacimiento" />
+        <br>
+        <label for="genero">Género</label>
+        <br>
+        <select name="genero" id="genero">
+            <option value="mujer">Mujer</option>
+            <option value="hombre">Hombre</option>
+        </select>
+        <br>
+        <button type="submit">Realizar Compra</button>
+    </form>
+    <div id="outputDescuentos"></div>
+</body>
+</html>
